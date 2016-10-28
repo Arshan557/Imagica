@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ImagicA</string>
+
+    <string name="original">Original</string>
+    <string name="effect1">Effect1</string>
+    <string name="effect2">Effect2</string>
+    <string name="effect3">Effect3</string>
+    <string name="effect4">Effect4</string>
+    <string name="effect5">Effect5</string>
+    <string name="effect6">Effect6</string>
+    <string name="effect7">Effect7</string>
+    <string name="effect8">Effect8</string>
+    <string name="effect9">Effect9</string>
+    <string name="effect10">Effect10</string>
+    <string name="effect11">Effect11</string>
+    <string name="effect12">Effect12</string>
+    <string name="effect13">Effect13</string>
+    <string name="effect14">Effect14</string>
+    <string name="effect15">Effect15</string>
+    <string name="effect16">Effect16</string>
+    <string name="effect17">Effect17</string>
+    <string name="effect18">Effect18</string>
+    <string name="effect19">Effect19</string>
+    <string name="effect20">Effect20</string>
+    <string name="effect21">Effect21</string>
+    <string name="effect22">Effect22</string>
+    <string name="effect23">Effect23</string>
+    <string name="effect24">Effect24</string>
+    <string name="effect25">Effect25</string>
+    <string name="effect26">Effect26</string>
+    <string name="effect27">Effect27</string>
+    <string name="effect28">Effect28</string>
+    <string name="effect29">Effect29</string>
+    <string name="effect30">Effect30</string>
+    <string name="effect31">Effect31</string>
+
+
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="save">Save</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Camera || Gallery</string>
+    <string name="slide_1_desc">Capture the photo from camera or pick it from gallery!</string>
+
+    <string name="slide_2_title">Effects</string>
+    <string name="slide_2_desc">Apply what effect you want among different effects!</string>
+
+    <string name="slide_3_title">Save || Share</string>
+    <string name="slide_3_desc">Save your favorite effect to gallery or share to someone!</string>
+
+</resources>
