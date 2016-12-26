@@ -383,12 +383,6 @@ public class MainActivity extends ActionBarActivity {
                 intent.setAction(Intent.ACTION_GET_CONTENT);
                 startActivityForResult(Intent.createChooser(intent, "Select image"), GALLERY_IMAGE_REQUEST_CODE);
             }
-
-
-
-
-
-
         } else if (v.getId() == R.id.save) {
             if (null != bmp) {
                 BitmapDrawable abmp = (BitmapDrawable) img.getDrawable();
@@ -544,7 +538,7 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
-    public String saveImageFile(Bitmap bitmap) {
+    public void saveImageFile(Bitmap bitmap) {
         OutputStream out = null;
         File file = new File(Environment.getExternalStorageDirectory().getPath(), "ImagicA");
         if (!file.exists()) {
@@ -573,6 +567,5 @@ public class MainActivity extends ActionBarActivity {
         } catch (Exception e) {
             Toast.makeText(MainActivity.this, "" + e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
         }
-        return filename;
     }
 }
